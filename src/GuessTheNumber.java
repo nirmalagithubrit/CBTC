@@ -11,7 +11,6 @@ public class GuessTheNumber {
 			   System.out.println("one more round is added");
 		   }
 		int randomNumber=(int) Math.floor(Math.random()*(max-min+1)+min);
-		System.out.println(randomNumber);
 		System.out.println("Enter the number");
 		int x=in.nextInt();
 		if(randomNumber==x) {
